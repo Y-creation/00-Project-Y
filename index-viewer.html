@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Y-viewer</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- does not work yet 
+	* <script src="script.js"></script> -->
+	<!-- this is the link to the provided CDN-->
+	<script src="https://unpkg.com/bpmn-js@11.1.0/dist/bpmn-viewer.development.js"></script>
+</head>
+
+<body>
+	<div id="canvas"></div>
+	<script>
+		// create an instance of the BPMN viewer
+		var bpmnViewer = new BpmnJS({ container: '#canvas' });
+	
+		// load a BPMN diagram into the viewer
+		bpmnViewer.importXML('/diagrams/diagramtest-bpmn.bpmn', function(err) {
+		  if (err) {
+			console.log('error rendering', err);
+		  } else {
+			console.log('rendered');
+		  }
+		});
+	  </script>
+	<img id="logo" src="/images/Yviewer.svg">
+
+</body>
+
+</html>
