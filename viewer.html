@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Y-Viewer</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- does not work yet 
+	* <script src="script.js"></script> -->
+	<!-- this is the link to the provided CDN-->
+	<!--(without pan&zoom)-->
+	<!-- 
+	<script src="https://unpkg.com/bpmn-js@11.1.0/dist/bpmn-viewer.development.js"></script> -->
+	<!--(with pan&zoom)-->
+    <script src="https://unpkg.com/bpmn-js@11.1.0/dist/bpmn-navigated-viewer.development.js"></script>
+	<!-- I copied all of this into our styles.css
+		* <link rel="stylesheet" href="https://unpkg.com/bpmn-js@11.1.0/dist/assets/bpmn-js.css"> -->
+	<!-- diagram import via AJAX only works with this-->
+	<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
+
+</head>
+
+<body>
+	<div class="topArea">
+		<a href="/index.html">
+            <img id="logo" src="/images/Yviewer.png">
+        </a>
+		<div class="viewer-nav" id="viewer-navigation">
+			<div class="nav-firstRow">
+				<a class="nav-firstRow" href="#open">Open Diagram</a>
+				<a class="nav-firstRow" href="#export">Export Diagram</a>
+			</div>
+			<div class="nav-secondRow">
+				<a class="nav-secondRow" href="#editAttributes">Show Attributes</a>
+			</div>
+		</div>
+	</div>
+	<div id="canvas"></div>
+	<div class="attributes">
+		<div class="attributeContainer">
+			<div class="attributeIdentifier" id="processName">Name</div>
+			<div class="attributeField" id="processNameField">NAME</div>
+		</div>
+		<div class="attributeContainer">
+			<div class="attributeIdentifier" id="processOwner">Process Owner</div>
+			<div class="attributeField" id="processOwnerField">PROCESSOWNER</div>
+		</div>
+		<div class="attributeContainer">
+			<div class="attributeIdentifier" id="processDescription">Description</div>
+			<div class="attributeField" id="processDescriptionField">DESCRIPTION <br> TEST <br> TEST</div>
+		</div>
+		<div class="attributeContainer">
+			<div class="attributeIdentifier" id="processValidity">Valid until</div>
+			<div class="attributeField" id="processValidityField">VALIDITY</div>
+		</div>
+		
+	</div>
+	<script>
+		// create an instance of the BPMN viewer
+		var bpmnViewer = new BpmnJS({ 
+			container: '#canvas' 
+		});
+		
+		// // this seems to render the viewer into the div#canvas correctly (div becomes the 'right' size), but I can not get the bpmn xml to show
+		// bpmnViewer.render("canvas", '/diagrams/diagramtest-bpmn.bpmn');
+
+		// load a BPMN diagram into the viewer // WHY DOESNT THIS WORK
+		/* bpmnViewer.importXML('/diagrams/diagramtest-bpmn.bpmn', function(err) {
+		  if (err) {
+			console.log('error rendering', err);
+		  } else {
+			console.log('rendered');
+		  }
+		}) */
+		// // yay, I finally got it. Here I configure a variable 'diagramUrl' for the AJAX call later
+		// var diagramUrl = 'diagrams/diagramtest-bpmn.bpmn'
+		// // with this diagram, the overlay works! 
+		 var diagramUrl = 'https://cdn.staticaly.com/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';
+
+
+		/**
+		 * Open diagram in our viewer instance.
+		 *
+		 * @param {String} bpmnXML diagram to display
+		 */
+		async function openDiagram(bpmnXML) {
+
+		// import diagram
+		try {
+
+			await bpmnViewer.importXML(bpmnXML);
+
+			// access viewer components
+			var canvas = bpmnViewer.get('canvas');
+			var overlays = bpmnViewer.get('overlays');
+
+
+			// zoom to fit full viewport
+		canvas.zoom('fit-viewport');
+
+			// attach an overlay to a node
+			overlays.add('SCAN_OK', 'note', {
+			position: {
+				bottom: 0,
+				right: 0
+			},
+			html: '<div class="diagram-note"><a href="/yeswecan.html">Can we make THIS clickable?</a></div>'
+			});
+
+			// add marker
+			canvas.addMarker('SCAN_OK', 'needs-discussion');
+		} catch (err) {
+
+			console.error('could not import BPMN 2.0 diagram', err);
+		}
+		}
+
+
+// load external diagram file via AJAX and open it
+$.get(diagramUrl, openDiagram, 'text');
+	  </script>
+	
+
+</body>
+
+</html>

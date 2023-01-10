@@ -1,19 +1,151 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* viewer styling */ 
+
+.topArea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+ 
+}
+
 #logo {
-    width: 50px;
     height: 50px;
-    position: absolute;
-    top: 0;
+    top: 5px;
     left: 10;
+    margin-bottom: 0px;
 }
 
 #canvas {
-    height: 100%;
+    height: 333px;
     padding: 0;
-    margin: 50px 0;
-    border:rgba(194, 199, 205, 1) solid 5px
+    margin: 5px 0;
+    border:rgba(194, 199, 205, 1) solid 1px;
   }
 
-/* this is all prewritten bpmn.js css (copied from bpmn-js.css */
+.viewer-nav {
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  font-size: small;
+  text-align: right;
+  padding: 5px;
+  /* make container visible */ 
+  /*
+  border: rgba(194, 199, 205, 1) solid 1px;
+  */
+
+}
+
+.nav-firstRow {
+ display: flex;
+ flex-direction: row; 
+ flex-wrap: wrap; 
+ justify-content: right;
+
+}
+
+.nav-secondRow {
+  margin-top: 5px;
+}
+
+.attributes {
+  border: solid 1px grey; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  /* align-items: flex-start; */
+  padding: 0 5px 5px 5px;
+}
+.attributeContainer {
+ border: solid 1px lightgrey;
+ display: flex;
+ flex-direction: row; 
+ flex-wrap: wrap;
+ justify-content: space-between;
+ padding: 3px;
+ margin: 5px 0 0 0; 
+}
+
+.attributeField {
+  text-align: left;
+  /* make container visible */
+  /*
+  border: solid 0.5px blue;
+  */
+  width: 55%;
+  line-break: loose;
+  
+}
+
+/* here is the styling for the index-prozesse.html (choice of modules) */
+
+.overview {
+  display: flex;
+  flex-direction: row;
+  /* make div visible */
+  /*
+  border: solid green;
+  */
+  flex-wrap: wrap;
+  /* center vertically */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  /* -ms-transform: translateY(-50%); */
+  transform: translateY(-50%);
+ 
+
+  
+}
+
+.modules {
+ /* make div visible */
+  /*
+  border: solid blue;
+  margin: 10px; 
+  */
+  display: flex; 
+  flex-direction: row;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+
+}
+
+a {
+  /* make container visible */
+  /*
+  border: solid gold; 
+  */
+  margin: 5px; 
+
+}
+
+.itemsOverview {
+  /* make div visible */
+  /*
+  border: solid black; 
+  */
+  width: 100%; 
+  
+}
+
+/* editor styling (additional) */
+
+#editor {
+  color: #662E92;
+  font-size: large;
+  margin-top: 10px
+
+}
+
+
+/* from here on, this is all prewritten bpmn.js css (copied from bpmn-js.css */
 .bjs-container {
     --bjs-font-family: Arial, sans-serif;
   

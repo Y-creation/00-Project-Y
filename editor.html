@@ -2,14 +2,13 @@
 <html>
 
 <head>
-	<title>Y-viewer</title>
+	<title>Y-Editor</title>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<!-- does not work yet 
 	* <script src="script.js"></script> -->
 	<!-- this is the link to the provided CDN-->
-	<!--(without pan&zoom)-->
-	<!-- <script src="https://unpkg.com/bpmn-js@11.1.0/dist/bpmn-viewer.development.js"></script> -->
+
 	<!--(with pan&zoom)-->
     <script src="https://unpkg.com/bpmn-js@11.1.0/dist/bpmn-navigated-viewer.development.js"></script>
 	<!-- I copied all of this into our styles.css
@@ -20,8 +19,20 @@
 </head>
 
 <body>
-	<img id="logo" src="/images/Yviewer.svg">
+	<div class="topArea">
+		<a href="/index.html">
+            <img id="logo" src="/images/Yeditor.png">
+        </a>
+		<div class="viewer-nav" id="viewer-navigation">
+			<div class="nav-firstRow" id="editor">
+				<a class="nav-firstRow" id="editor" href="#open">Open Diagram</a>
+				<a class="nav-firstRow" id="editor" href="#save">Save Diagram</a>
+			</div>
+		</div>
+	</div>
 	<div id="canvas"></div>
+	
+
 	<script>
 		// create an instance of the BPMN viewer
 		var bpmnViewer = new BpmnJS({ 
@@ -39,10 +50,10 @@
 			console.log('rendered');
 		  }
 		}) */
-		// yay, I finally got it. Here I configure a variable 'diagramUrl' for the AJAX call later
+		// // yay, I finally got it. Here I configure a variable 'diagramUrl' for the AJAX call later
 		// var diagramUrl = 'diagrams/diagramtest-bpmn.bpmn'
-		// with this diagram, the overlay works! 
-		var diagramUrl = 'https://cdn.staticaly.com/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';
+		// // with this diagram, the overlay works! 
+		 var diagramUrl = 'https://cdn.staticaly.com/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';
 
 
 		/**
@@ -71,7 +82,7 @@
 				bottom: 0,
 				right: 0
 			},
-			html: '<div class="diagram-note">Can we make THIS clickable?</div>'
+			html: '<div class="diagram-note"><a href="/yeswecan.html">Can we make THIS clickable?</a></div>'
 			});
 
 			// add marker
