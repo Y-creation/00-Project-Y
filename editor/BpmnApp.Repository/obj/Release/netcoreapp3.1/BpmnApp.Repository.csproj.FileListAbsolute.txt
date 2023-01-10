@@ -1,0 +1,16 @@
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\bin\Release\netcoreapp3.1\BpmnApp.Repository.deps.json
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\bin\Release\netcoreapp3.1\BpmnApp.Repository.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\bin\Release\netcoreapp3.1\BpmnApp.Repository.pdb
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\bin\Release\netcoreapp3.1\BmpmnApp.ApiContract.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\bin\Release\netcoreapp3.1\BpmnApp.DataAccess.Ef.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\bin\Release\netcoreapp3.1\BpmnApp.Domain.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\bin\Release\netcoreapp3.1\BpmnApp.DataAccess.Ef.pdb
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\bin\Release\netcoreapp3.1\BpmnApp.Domain.pdb
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\bin\Release\netcoreapp3.1\BmpmnApp.ApiContract.pdb
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\obj\Release\netcoreapp3.1\BpmnApp.Repository.csproj.AssemblyReference.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\obj\Release\netcoreapp3.1\BpmnApp.Repository.AssemblyInfoInputs.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\obj\Release\netcoreapp3.1\BpmnApp.Repository.AssemblyInfo.cs
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\obj\Release\netcoreapp3.1\BpmnApp.Repository.csproj.CoreCompileInputs.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\obj\Release\netcoreapp3.1\BpmnApp.Repository.csproj.CopyComplete
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\obj\Release\netcoreapp3.1\BpmnApp.Repository.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Repository\obj\Release\netcoreapp3.1\BpmnApp.Repository.pdb

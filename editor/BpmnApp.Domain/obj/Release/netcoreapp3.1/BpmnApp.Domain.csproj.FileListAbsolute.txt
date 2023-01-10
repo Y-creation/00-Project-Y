@@ -1,0 +1,12 @@
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\bin\Release\netcoreapp3.1\BpmnApp.Domain.deps.json
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\bin\Release\netcoreapp3.1\BpmnApp.Domain.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\bin\Release\netcoreapp3.1\BpmnApp.Domain.pdb
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\bin\Release\netcoreapp3.1\BmpmnApp.ApiContract.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\bin\Release\netcoreapp3.1\BmpmnApp.ApiContract.pdb
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\obj\Release\netcoreapp3.1\BpmnApp.Domain.csproj.AssemblyReference.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\obj\Release\netcoreapp3.1\BpmnApp.Domain.AssemblyInfoInputs.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\obj\Release\netcoreapp3.1\BpmnApp.Domain.AssemblyInfo.cs
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\obj\Release\netcoreapp3.1\BpmnApp.Domain.csproj.CoreCompileInputs.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\obj\Release\netcoreapp3.1\BpmnApp.Domain.csproj.CopyComplete
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\obj\Release\netcoreapp3.1\BpmnApp.Domain.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.Domain\obj\Release\netcoreapp3.1\BpmnApp.Domain.pdb

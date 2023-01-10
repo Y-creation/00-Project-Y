@@ -1,0 +1,8 @@
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.DataAccess.Ef\bin\Debug\netcoreapp3.1\BpmnApp.DataAccess.Ef.deps.json
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.DataAccess.Ef\bin\Debug\netcoreapp3.1\BpmnApp.DataAccess.Ef.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.DataAccess.Ef\bin\Debug\netcoreapp3.1\BpmnApp.DataAccess.Ef.pdb
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.DataAccess.Ef\obj\Debug\netcoreapp3.1\BpmnApp.DataAccess.Ef.AssemblyInfoInputs.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.DataAccess.Ef\obj\Debug\netcoreapp3.1\BpmnApp.DataAccess.Ef.AssemblyInfo.cs
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.DataAccess.Ef\obj\Debug\netcoreapp3.1\BpmnApp.DataAccess.Ef.csproj.CoreCompileInputs.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.DataAccess.Ef\obj\Debug\netcoreapp3.1\BpmnApp.DataAccess.Ef.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BpmnApp.DataAccess.Ef\obj\Debug\netcoreapp3.1\BpmnApp.DataAccess.Ef.pdb

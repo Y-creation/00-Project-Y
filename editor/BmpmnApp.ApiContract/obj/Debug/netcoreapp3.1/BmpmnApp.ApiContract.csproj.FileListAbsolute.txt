@@ -1,0 +1,12 @@
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\bin\Debug\netcoreapp3.1\BmpmnApp.ApiContract.deps.json
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\bin\Debug\netcoreapp3.1\BmpmnApp.ApiContract.runtimeconfig.json
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\bin\Debug\netcoreapp3.1\BmpmnApp.ApiContract.runtimeconfig.dev.json
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\bin\Debug\netcoreapp3.1\BmpmnApp.ApiContract.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\bin\Debug\netcoreapp3.1\BmpmnApp.ApiContract.pdb
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\obj\Debug\netcoreapp3.1\BmpmnApp.ApiContract.AssemblyInfoInputs.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\obj\Debug\netcoreapp3.1\BmpmnApp.ApiContract.AssemblyInfo.cs
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\obj\Debug\netcoreapp3.1\BmpmnApp.ApiContract.csproj.CoreCompileInputs.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\obj\Debug\netcoreapp3.1\BmpmnApp.ApiContract.dll
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\obj\Debug\netcoreapp3.1\BmpmnApp.ApiContract.pdb
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\obj\Debug\netcoreapp3.1\BmpmnApp.ApiContract.genruntimeconfig.cache
+D:\UniverLiechtestein\IS development\BPMN.App\BpmnApp\BmpmnApp.ApiContract\obj\Debug\netcoreapp3.1\BmpmnApp.ApiContract.csproj.AssemblyReference.cache
